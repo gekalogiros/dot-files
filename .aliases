@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# Directory Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"
+
+# Weather
+alias weather="curl wttr.in"
+
+# AFK
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Path entries in seperate lines
+alias path='echo -e ${PATH//:/\\n}'
