@@ -1,0 +1,7 @@
+---
+- name: Set up local development environment
+  hosts: all
+  connection: local
+  roles:
+    - brew
+    - caarlos0.java-dev 
