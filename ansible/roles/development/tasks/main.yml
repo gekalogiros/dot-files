@@ -1,0 +1,22 @@
+---
+- name: Ensure that taps are present.
+  homebrew_tap: tap=caskroom/versions
+
+- name: Install Homebrew casks
+  homebrew_cask:
+    update_homebrew: yes
+    name: "{{ item }}"
+    state: present        
+  with_items:
+    - java
+
+- name: Install Homebrew packages
+  homebrew: 
+    update_homebrew: yes
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - maven
+    - groovy
+    - gradle
+    - sbt

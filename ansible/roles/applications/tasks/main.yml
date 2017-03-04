@@ -1,0 +1,5 @@
+---
+- homebrew_cask:
+    name: firefox
+    state: present
+    install_options: 'debug,appdir=/Applications'
