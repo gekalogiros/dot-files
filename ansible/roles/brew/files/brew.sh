@@ -21,5 +21,15 @@ brew install socat
 brew install gpg-agent
 brew install pass
 
+# Install fun tools
+brew install fortune
+brew install lolcat
+
+# Install spotify
+brew install shpotify
+
+# Install bash multiplexer
+brew install tmux 
+
 # Remove outdated versions from the cellar.
 brew cleanup
