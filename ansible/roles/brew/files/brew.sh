@@ -20,6 +20,7 @@ brew install nmap
 brew install socat
 brew install gpg-agent
 brew install pass
+brew install tree
 
 # Install fun tools
 brew install fortune
