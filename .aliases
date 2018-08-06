@@ -17,4 +17,10 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias ls="ls -alh"
 
 # Path entries in seperate lines
-alias path='echo -e ${PATH//:/\\n}'
+alias path="echo -e ${PATH//:/\\n}"
+
+# Stop all containers
+alias dstop="docker stop $(docker ps -a -q)"
+
+# Remove all containers
+alias dremove="docker rm $(docker ps -a -q)"
