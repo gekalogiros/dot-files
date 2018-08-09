@@ -1,4 +1,4 @@
-export PATH="$HOME/bin:$PATH";
+export PATH="$HOME/bin:$HOME/scripts:$PATH";
 
 # Load the shell dotfiles:
 for file in ~/.{bash_prompt,exports,aliases,functions}; do
