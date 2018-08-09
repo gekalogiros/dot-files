@@ -21,6 +21,7 @@ OS X El Capitan
 ```
 $chmod +x bootstrap.sh
 $./bootstrap.sh
+$./ansible/run.sh
 ```
 
 # Credits
