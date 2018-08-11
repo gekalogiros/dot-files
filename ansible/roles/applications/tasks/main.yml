@@ -9,3 +9,6 @@
 - homebrew_cask:
     name: spectacle
     state: present
+- homebrew_cask:
+    name: ngrok
+    state: present
