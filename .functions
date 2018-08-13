@@ -10,3 +10,11 @@ function server() {
 function pass() {
 	lpass show -c --password "$1"
 }
+
+function encrypt() {
+ 	openssl enc -e -base64 -aes-128-ctr -nopad -nosalt -pass file:${1}
+}
+
+function decrypt() {
+	openssl enc -d -base64 -aes-128-ctr -nopad -nosalt -pass file:${1}
+}
