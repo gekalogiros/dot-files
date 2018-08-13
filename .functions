@@ -18,3 +18,7 @@ function encrypt() {
 function decrypt() {
 	openssl enc -d -base64 -aes-128-ctr -nopad -nosalt -pass file:${1}
 }
+
+function rand() {
+	openssl rand 192 -out ${1}
+}
