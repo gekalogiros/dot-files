@@ -5,3 +5,5 @@ for file in ~/.{bash_prompt,exports,aliases,functions}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion

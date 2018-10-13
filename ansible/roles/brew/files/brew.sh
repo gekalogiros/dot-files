@@ -21,6 +21,7 @@ brew install socat
 brew install gpg-agent
 brew install pass
 brew install tree
+brew install bash-completion
 brew install lastpass-cli --with-pinentry
 
 # Install fun tools
