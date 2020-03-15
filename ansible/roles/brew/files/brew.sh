@@ -36,3 +36,7 @@ brew install tmux
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Install latest vi and vifm
+brew install vi
+brew install vifm
