@@ -1,4 +1,9 @@
 ---
+- name: Add Java Tap to Homebrew
+  community.general.homebrew_tap:
+    name: AdoptOpenJDK/openjdk
+    state: present
+    
 - name: Install Homebrew casks
   homebrew_cask:
     update_homebrew: yes
