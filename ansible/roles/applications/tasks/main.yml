@@ -6,7 +6,6 @@
 - homebrew_cask:
     name: google-chrome
     state: present
-    install_options: 'debug,appdir=/Applications'
 - homebrew_cask:
     name: spectacle
     state: present
