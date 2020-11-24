@@ -4,9 +4,6 @@
     state: present
     install_options: 'debug,appdir=/Applications'
 - homebrew_cask:
-    name: alfred
-    state: present
-- homebrew_cask:
     name: spectacle
     state: present
 - homebrew_cask:
