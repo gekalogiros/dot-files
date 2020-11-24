@@ -23,6 +23,7 @@ brew install pass
 brew install tree
 brew install bash-completion
 brew install lastpass-cli --with-pinentry
+brew install docker
 
 # Install fun tools
 brew install fortune
