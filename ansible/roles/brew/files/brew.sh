@@ -24,6 +24,8 @@ brew install tree
 brew install bash-completion
 brew install lastpass-cli --with-pinentry
 brew install docker
+brew install minikube
+brew install asdf
 
 # Install fun tools
 brew install fortune
