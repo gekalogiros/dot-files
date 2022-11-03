@@ -10,9 +10,6 @@
     name: lastpass
     state: present
 - homebrew_cask:
-    name: docker
-    state: present
-- homebrew_cask:
     name: slack
     state: present
 - homebrew_cask:
