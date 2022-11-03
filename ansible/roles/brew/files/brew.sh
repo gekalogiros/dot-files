@@ -18,7 +18,6 @@ brew install gnu-sed --with-default-names
 # Install some other useful tools
 brew install nmap
 brew install socat
-brew install gpg-agent
 brew install pass
 brew install tree
 brew install bash-completion
@@ -44,3 +43,9 @@ brew cleanup
 # Install latest vi and vifm
 brew install vi
 brew install vifm
+
+# Install Casks
+brew install --cask slack
+brew install --cask visual-studio-code
+brew install --cask spectacle
+brew install --cask google-chrome
